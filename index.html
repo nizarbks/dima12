@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0c4a4e" />
+  <meta name="description" content="Dima12 — اكتشفوا اختياراتنا المميزة مع التوصيل والدفع عند الاستلام في المغرب." />
+  <title>Dima12 | اختيارات تستاهل</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">التوصيل لجميع مدن المغرب · الدفع عند الاستلام</div>
+  <header class="site-header container">
+    <a class="brand" href="#home" aria-label="Dima12 الصفحة الرئيسية"><span class="brand-mark">D</span><span>Dima<em>12</em></span></a>
+    <nav><a href="#products">المنتجات</a><a href="#how">كيفاش كيوصل الطلب؟</a><a href="#about">علينا</a></nav>
+    <button class="cart-button" id="cartButton" aria-label="سلة الطلبات">السلة <b id="cartCount">0</b></button>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">مِن كازا، لجميع المغرب</p>
+        <h1>اختيارات يومية<br><i>كاتسهّل</i> حياتك.</h1>
+        <p class="hero-text">منتجات مختارة بعناية، خدمة قريبة منك، والدفع غير ملي توصلك السلعة لباب دارك.</p>
+        <div class="hero-actions"><a class="button primary" href="#products">تسوّق دابا <span>←</span></a><a class="button text" href="#how">كيفاش كيخدم؟</a></div>
+        <div class="trust-row"><span>✓ الدفع عند الاستلام</span><span>✓ توصيل سريع</span><span>✓ خدمة عبر واتساب</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image"></div>
+        <div class="casablanca-tag">CASABLANCA<br><small>33.5731° N · 7.5898° W</small></div>
+        <div class="hero-sticker">مختار<br>ليك</div>
+      </div>
+    </section>
+
+    <section class="features"><div class="container feature-grid"><div><b>01</b><p>تأكيد سريع<br>عبر واتساب</p></div><div><b>02</b><p>خلاص غير<br>ملي توصلك</p></div><div><b>03</b><p>توصيل لكامل<br>المغرب</p></div></div></section>
+
+    <section id="products" class="products-section container">
+      <div class="section-heading"><div><p class="eyebrow">اختياراتنا</p><h2>المنتجات المميزة</h2></div><p>كل أسبوع كنزيدو اختيارات جديدة.<br>شوف شنو مناسب ليك اليوم.</p></div>
+      <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <section id="how" class="how-section"><div class="container"><p class="eyebrow">بسيطة وواضحة</p><h2>طلبك فـ 3 خطوات</h2><div class="steps"><article><span>1</span><h3>اختار منتوجك</h3><p>شوف التفاصيل وزيد العدد اللي بغيتي.</p></article><article><span>2</span><h3>عمّر المعلومات</h3><p>الاسم، رقم الهاتف والعنوان ديالك.</p></article><article><span>3</span><h3>خلّص ملي يوصلك</h3><p>غادي نأكدو معاك ونوصلو الطلب.</p></article></div></div></section>
+
+    <section id="about" class="about container"><div><p class="eyebrow">Dima12</p><h2>حاجة زوينة،<br>بلا تعقيد.</h2></div><p>بغينا التسوق أونلاين يكون قريب وبسيط. كنختارو المنتجات المفيدة، وكنبقاو متاحين ليك فواتساب إلى احتجتي أي مساعدة.</p><a href="https://wa.me/212656903345?text=سلام%20Dima12%20بغيت%20نسول" target="_blank" rel="noopener" class="button outline">هضر معانا فواتساب ↗</a></section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">D</span><span>Dima<em>12</em></span></a><p>© <span id="year"></span> Dima12 · Casablanca, Maroc</p><a href="#dashboard" class="admin-link">لوحة الإدارة</a></div></footer>
+
+  <a class="whatsapp" href="https://wa.me/212656903345?text=سلام%20Dima12%20بغيت%20نسول" target="_blank" rel="noopener" aria-label="تواصل معنا عبر واتساب"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.1 17.5c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.1c-.2.2-.3.2-.6.1-1.7-.8-2.8-1.5-3.9-3.4-.3-.5.3-.4.9-1.4.1-.2.1-.4 0-.6-.1-.1-.7-1.7-1-2.3-.3-.7-.5-.6-.7-.6h-.6c-.2 0-.6.1-.9.5-.3.3-1.1 1-1.1 2.6s1.1 3 1.2 3.2c.1.2 2.1 3.2 5 4.5 1.8.8 2.5.9 3.4.7.5-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z"/><path d="M16 3.2a12.7 12.7 0 0 0-10.8 19.4L3.5 29l6.6-1.7A12.8 12.8 0 1 0 16 3.2zm0 23.4c-1.9 0-3.7-.5-5.3-1.4l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6z"/></svg><span>واتساب</span></a>
+
+  <aside class="cart-panel" id="cartPanel" aria-hidden="true"><div class="panel-head"><h2>سلة الطلبات</h2><button class="icon-button" data-close="cartPanel">×</button></div><div id="cartItems"></div><div class="cart-empty" id="cartEmpty">السلة ديالك مازال خاوية.<br><a href="#products" data-close="cartPanel">شوف المنتجات</a></div><div class="cart-footer" id="cartFooter"><div><span>المجموع</span><b id="cartTotal">0 درهم</b></div><button id="checkoutButton" class="button primary wide">كمّل الطلب ←</button></div></aside><div class="overlay" id="overlay"></div>
+
+  <dialog id="checkoutModal"><button class="dialog-close" data-close="checkoutModal">×</button><p class="eyebrow">الدفع عند الاستلام</p><h2>معلومات التوصيل</h2><form id="checkoutForm"><label>الاسم الكامل<input name="name" required placeholder="الاسم والنسب"></label><label>رقم الهاتف<input name="phone" inputmode="tel" required placeholder="06 XX XX XX XX"></label><label>المدينة<input name="city" required placeholder="مثال: Casablanca"></label><label>العنوان الكامل<textarea name="address" required placeholder="الحي، الشارع، رقم المنزل..."></textarea></label><button class="button primary wide" type="submit">أكد الطلب عبر واتساب ←</button><small>غادي يوصلك تأكيد الطلب عبر واتساب.</small></form></dialog>
+
+  <section id="dashboard" class="dashboard" hidden><header class="dash-header"><a class="brand" href="#home"><span class="brand-mark">D</span><span>Dima<em>12</em></span></a><div><span>لوحة الإدارة</span><button id="leaveDashboard">عرض المتجر ↗</button></div></header><main class="dash-main"><div class="dash-title"><div><p class="eyebrow">نظرة عامة</p><h1>مرحبا بك، Dima12</h1></div><button class="button primary" id="newProduct">+ زيد منتوج</button></div><div class="metrics"><article><span>إجمالي المبيعات</span><b id="salesTotal">0 <small>DH</small></b></article><article><span>عدد الطلبات</span><b id="ordersTotal">0</b></article><article><span>الزبناء</span><b id="customersTotal">0</b></article><article><span>متوسط الطلب</span><b id="averageTotal">0 <small>DH</small></b></article></div><div class="dash-grid"><section class="dash-card orders-card"><div class="card-head"><h2>آخر الطلبات</h2><button class="ghost-button" id="addDemoOrder">+ طلب تجريبي</button></div><div class="table-wrap"><table><thead><tr><th>الزبون</th><th>المنتجات</th><th>المبلغ</th><th>التاريخ</th><th>الحالة</th></tr></thead><tbody id="ordersTable"></tbody></table></div></section><section class="dash-card products-card"><div class="card-head"><h2>منتجاتك</h2><span id="productsNumber"></span></div><div id="adminProducts"></div></section></div></main></section>
+  <dialog id="productModal"><button class="dialog-close" data-close="productModal">×</button><p class="eyebrow">إدارة المتجر</p><h2 id="productModalTitle">زيد منتوج جديد</h2><form id="productForm"><input type="hidden" name="id"><input type="hidden" name="existing_image"><label>اسم المنتوج<input name="name" required></label><div class="two-inputs"><label>الثمن (DH)<input name="price" type="number" min="1" required></label><label>التصنيف<input name="category" required placeholder="مثال: عناية"></label></div><label>وصف قصير<textarea name="description" required></textarea></label><label>صورة المنتوج <small>اختارها من الهاتف أو PC</small><input name="image_file" type="file" accept="image/png,image/jpeg,image/webp"></label><label>الألوان <small>كتبهم مفصولين بفاصلة، مثال: أحمر، أزرق، أسود</small><input name="colors" placeholder="أحمر، أزرق، أسود، أبيض..."></label><label class="check"><input name="featured" type="checkbox" checked> منتوج مميز</label><button class="button primary wide" type="submit">حفظ ونشر المنتوج</button></form></dialog>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="store.js"></script>
+</body>
+</html>
